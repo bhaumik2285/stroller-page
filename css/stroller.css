@@ -1,0 +1,768 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.announcement-bar{
+    width: 100%;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.center{
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #221E20;
+}
+/* navbar */
+.nav-cntnr {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin-top: -2px;
+    z-index: 2;
+    min-height: 100px;
+    background-color: rgba(34, 30, 32, 1);
+
+}
+
+.nav-bar,
+.nav-bar a {
+    color: white;
+}
+
+/* set navbar flexible */
+.nav-bar,
+.nav-links,
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.socials,
+.nav-links {
+    gap: 1.5rem;
+}
+
+/* style navbar */
+.nav-bar {
+    max-width: 90vw;
+    margin: auto;
+    min-height: 100px;
+}
+
+/* style nav links */
+.nav-links li a {
+    font-size: 15px;
+}
+
+.socials i {
+    font-size: 25px;
+}
+
+.nav-bar .bars {
+    display: none;
+
+}
+
+.nav-bar .bars i {
+    font-size: 40px;
+}
+#main{
+    background-image: url('../images/bg-img.png');
+    /* position: relative; */
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-container{
+    display: flex;
+    width: 85%;
+    padding-top: 8rem;
+    margin: auto;
+    /* background-color: green; */
+  }
+  .main-info{
+    /* background-color: rgb(72, 85, 72); */
+    width: 50%;
+    /* background-color: red; */
+    color: white;
+}
+.main-info h2{
+    margin: 10px 0px;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    line-height: 65.37px;
+}
+.main-info p{
+    font-size: 1.1rem;
+    line-height: 23.15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-info span{
+    font-family: Arial, Helvetica, sans-serifs;
+}
+.main-info span:first-child{
+    font-size: 1.4rem;
+}
+.ratings{
+    margin-left: 10px;
+    font-size: 1rem;
+}
+.ratings i{
+    color: #F1AA3F;
+    font-size: 0.6rem;
+}
+.btn-1{
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    width: 138px;
+    height: 51px;
+    border: 2px white solid;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: transparent;
+}
+.play{
+    margin-left: 10px;
+}
+.play i{
+    cursor: pointer;
+} 
+.price{
+    margin-left: 30px;
+    line-height: 23.15px;
+    padding-bottom: 20px;
+}
+
+.Slider {
+    background-color: rgba(246, 244, 235, 1);
+    padding: 3rem 0 2rem 3rem;
+    overflow: hidden;
+}
+
+.listslider .slideItem {
+    max-width: 70vw;
+    border: 1px solid rgba(172, 172, 172, 1);
+}
+
+.listslider .item {
+    background-color: white;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+    gap: 3rem;
+
+}
+
+.listslider .item p,
+.swiper-pagination-current,
+.swiper-pagination-total {
+    font-size: 28px;
+    width: 60%;
+    font-style: italic;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listslider .slideItem p,
+.Slider .pagination .pageNum {
+    color: black;
+}
+
+.Slider .pagination i {
+    color: rgba(19, 53, 91, 1);
+    font-size: 32px;
+}
+
+.swiper-pagination-current,
+.swiper-pagination-total {
+    color: black;
+}
+
+.Slider .pagination .pageNum {
+    padding-right: 2rem;
+    color: black;
+    font-size: 28px;
+}
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-slide {
+    width: 80%;
+}
+
+.stroller-section {
+    background-color: rgba(34, 30, 32, 1);
+    padding: 7rem 11rem;
+}
+
+/* stroller section start */
+.stroller-section .entourage p:first-child,
+.entourage span,
+.imageSlide .boyText p:nth-child(2),
+.girlSlider .carousel p {
+    font-size: 2.6rem;
+    line-height: 49.03px;
+    color: white;
+    font-weight: 800;
+    margin: 0;
+}
+
+.stroller-section .entourage {
+    flex-direction: column;
+    max-width: 58vw;
+}
+
+.stroller-section .entourage span {
+    color: rgba(125, 125, 125, 1);
+}
+
+.stroller-section .quest,
+.entourage,
+.questContent {
+    display: flex;
+    gap: 2rem;
+}
+.entourage .average{
+    color: white;
+    margin: 0;
+}
+.imageSlide{
+    display: flex;
+    gap:1rem;
+    flex-direction: row;
+}
+.questContent {
+    color: white;
+    gap: 1rem;
+    align-items: center;
+}
+
+.stroller-section .quest {
+    padding-top: 3rem;
+}
+.item img{
+    width: 100%;
+}
+.stroller-section .questContent span:first-child {
+    padding: 36px;
+    background-color: white;
+    border-radius: 50%;
+}
+/* vertical slider */
+/* html,
+body {
+    position: relative;
+    height: 100%;
+} */
+
+swiper-container {
+    width: 100%;
+    height: 912px;
+}
+
+swiper-slide {
+    font-size: 18px;
+    background: white;
+    height: 100%;
+}
+
+.imageSlide,
+.arrow-btns {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.arrow-btns {
+    justify-content: space-between;
+}
+
+.imageSlide .scooter-boy-text {
+    display: flex;
+    flex-direction: column;
+    max-width:35vw;
+    gap: 10px;
+}
+
+.imageSlide .scooter-boy-text h2{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+
+}
+
+.imageSlide .scooter-boy-text p {
+    color: rgba(34, 30, 32, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.imageSlide .scooter-boy-text p:first-child {
+    color: rgba(19, 53, 91, 1);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* product slider */
+.girlSlider {
+    padding: 1rem 0 3rem 0;
+    background-color: rgba(34, 30, 32, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel {
+    background-color: rgba(34, 30, 32, 1);
+    height: 600px;
+    perspective: 99vw;
+}
+
+.carousel .carousel-item {
+    width: 380px;
+    padding: 0 26px;
+    margin-top: -5rem;
+}
+
+
+.carousel h2 {
+    margin-top: 2.2rem;
+    font-size: 2.6rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    /* margin-left: 10vw; */
+}
+/* caption */
+.girlSlider .slider-caption {
+    max-width: 410px;
+    margin-top: -10rem;
+    z-index: 1;
+    padding-bottom: 2rem;
+}
+
+.girlSlider .slider-caption p {
+    padding: 0 14px;
+    color: white;
+}
+
+.girlSlider .slider-caption i {
+    color: rgba(19, 53, 91, 1);
+    font-size: 24px;
+}
+
+.girlSlider .slider-caption .arrow-btns {
+    padding: 0 0 20px 0;
+}
+
+.girlSlider .slider-caption .arrow-btns span {
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.girlSlider .slider-caption .arrow-btns span:hover i {
+    font-size: 26px;
+}
+
+.girlSlider .slider-caption .arrow-btns .next {
+    margin-left: 2rem;
+}
+
+.gradient-1,
+.gradient-2 {
+    display: flex;
+    min-height: 700px;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background-color: #f8f8f8;
+    ;
+}
+/* linear gradient background */
+.lift {
+    height: 100vh;
+    max-width: 50vw;
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(to right, rgba(34, 30, 32, 1), rgba(34, 30, 32, 0.914), rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0));
+}
+
+.gradient-1 .rollContent {
+    position: relative;
+    margin-right: auto;
+    max-width: 35vw;
+    padding-left: 4rem;
+}
+
+.gradient-1 {
+    background-image: url('../images/roll-1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.gradient-2 {
+    background-image: url('../images/roll-2.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    object-fit: cover;
+    background-clip: border-box;
+}
+
+.gradient-2 .carContent p {
+    position: relative;
+    color: white;
+}
+.gradient-1 .rollContent p {
+    position: relative;
+    color: white;
+}
+.gradient-2 .carContent h2{
+    font-size: 3.3rem;
+    font-weight: 700;
+    color: white;
+}
+.gradient-1 .rollContent h2{
+    font-size: 3.3rem;
+    font-weight: 700;
+    color: white;
+}
+/* linear gradient background */
+.gradient-2 .carlift {
+    min-height: 700px;
+    max-width: 50vw;
+    margin: 0 0 0 50vw;
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.514), rgba(34, 30, 32, 0.914), rgba(34, 30, 32, 1));
+}
+
+.gradient-2 .carContent {
+    position: relative;
+    margin-left: auto;
+    max-width: 32%;
+    padding-right: 4rem;
+}
+
+.footer-links {
+    background-color: black;
+    padding: 2rem 15rem;
+    display: flex;
+    justify-content: space-between;
+}
+/* footer menus */
+.footer-links .footer-col .main-col {
+    width: 24vw;
+    padding-right: 3rem;
+}
+/* email */
+.footer-links .main-col input {
+    margin-top: 1rem;
+    background-color: rgba(0, 0, 0, 1);
+    outline: none;
+    padding: 6px 0;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 90%;
+}
+.footer-links .main-col button{
+    border: none;
+    outline: none;
+    background-color: black;
+}
+.footer-col .main-col span {
+    margin-left: -28px;
+    margin-bottom: -1rem;
+}
+
+.footer-col .main-col span i {
+    font-size: 25px;
+    color: white;
+
+}
+
+.footer-col li:not(.footer-col li:last-child) {
+    padding-bottom: 6px;
+}
+
+.footer-col p,
+.footer-col a {
+    font-size: 15px;
+    line-height: 20.43px;
+    color: white;
+}
+
+.footer-links .footer-col h1 {
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    line-height: 32.68px;
+    padding-bottom: 10px;
+}
+
+/* media queries */
+@media screen and (max-width:909px) {
+   .main-info{
+    width: 100%;
+   } 
+}
+    
+@media screen and (max-width:645px) {
+    .main-info h2{
+        font-size: 2rem;
+        line-height: 40px;
+    } 
+ }
+ @media screen and (max-width:445px) {
+    .main-info {
+        span{
+            font-size: 0.8rem;
+        }
+        span:first-child{
+            font-size: 1rem;
+        }
+    } 
+    
+ }
+ @media screen and (max-width:503px) {
+   .carousel h2{
+    font-size: 1.7rem;
+    padding: 1rem;
+   }
+ }
+
+@media screen and (max-width: 909px) {
+    .navbar a
+    {display: none;}
+   .navbar a.icon {
+     float: right;
+     display: block;
+   }
+   .navbar.responsive .icon {
+     position: absolute;
+     right: 0;
+     bottom:0;
+   }
+   .navbar.responsive a {
+     float: none;
+     display: block;
+   }
+   .navbar.responsive{
+    background-color: rebeccapurple;
+    width: 100%;
+   }
+
+}
+
+@media screen and (max-width: 875px) {
+    .nav-bar {
+        padding: 0 50px;
+    }
+    .bars i.active:before {
+        content: "X";
+    }
+    .nav-bar .socials.active,
+    .nav-bar .nav-links.active {
+        left: 0;
+    }
+    .nav-links li {
+        margin: 20px 0;
+        padding-left: 4rem;
+    }
+
+    .nav-links li a,
+    .socials i {
+        font-size: 2rem;
+    }
+
+    .nav-bar .nav-links {
+        position: fixed;
+        display: block;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background-color: rgba(34, 30, 32, 1);
+        padding-top: 80px;
+        transition: all 0.3 ease-in;
+    }
+
+    .socials {
+        position: fixed;
+        display: inline-block;
+        width: 100%;
+        top: 90%;
+        left: -100%;
+        padding-left: 4rem;
+    }
+
+    .socials span {
+        padding-right: 2rem;
+    }
+
+    .nav-bar .bars {
+        display: block;
+        z-index: 2;
+    }
+}
+ 
+
+ @media screen and (max-width: 928px) {
+    .nav-bar {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (max-width:913px) {
+    .questContent{
+        flex-direction: row;        
+    }
+    .stroller-section{
+        padding: 1rem 2rem;
+    }
+  
+    .quest{
+        padding: 0;
+        flex-direction: column;
+    }
+    .entourage{
+        width:100%;
+    }
+    
+ }
+
+ 
+ @media screen and (max-width:1030px) {
+    .imageSlide{
+        flex-direction: column;
+    }
+    .imageSlide img{
+        width: 50%;
+    }
+ }
+ 
+ @media screen and (max-width:890px) {
+    .gradient-1, .gradient-2{
+        min-height: 50vh;
+    }
+    .gradient-1 .rollContent{
+        max-width: 100vw;
+        padding: 1rem 1rem ;
+    }
+    .gradient-2 .carContent{
+        width: 100vw;
+        padding: 1rem 1rem;
+    }
+    .gradient-1 .rollContent h2{
+        background-image: linear-gradient(60deg, #ffffff, #000000);
+        background-clip: text;
+        color: transparent;
+    }
+    .gradient-1 .rollContent p{
+        background-image: linear-gradient(60deg, #ffffff, #000000);
+        background-clip: text;
+        color: transparent;
+    }
+    .gradient-2 .carContent h2{
+        background-image: linear-gradient(60deg, #000000, #ffffff);
+        background-clip: text;
+        color: transparent;
+    }
+    .gradient-2 .carContent p{
+        background-image: linear-gradient(60deg, #000000, #ffffff);
+        background-clip: text;
+        color: transparent;
+    }
+    .gradient-2{
+        display: inline-block;
+    }
+    .gradient-2 .carContent{
+        margin: 0;
+        max-width: 100vw;
+
+    }
+ }
+ 
+ 
+ @media screen and (max-width:679px) {
+    .pagination{
+        margin-left: 10px;
+    }
+    .listslider .item{
+        flex-direction: column;
+        gap:1rem;
+        padding: 0;
+    }
+    .listslider .item p{
+        font-size: 1.3rem;
+        padding:0;
+        width: 100%;
+    }
+    .swiper-slide{
+        height: 100vh;
+    }
+    .imageSlide img{
+        width: 0%;
+    }
+    .imageSlide .scooter-boy-text{
+        max-width: 80vw;
+    }
+    swiper-container,
+    swiper-slide,
+    .imageSlide {
+        height: 70vh;
+    }
+ }
+ @media screen and (max-width: 1040px) {
+    .footer-links {
+        padding: 2rem 2rem 4rem 2rem;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .footer-links .footer-col .main-col {
+        padding-right: 0;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 301px) {
+   .carousel h2{
+    margin-top: 0.4rem;
+   }
+}
+@media screen and (max-width: 549px) {
+    #main{
+        background-position: left;
+    }
+ }
+ 
